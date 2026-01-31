@@ -247,6 +247,7 @@ local function create_overlay_window(parent_win, buffer_line, col, content, synt
 		width = max_width,
 		height = #content_lines,
 		style = "minimal",
+		border = "none",
 		zindex = 1,
 		focusable = false,
 		-- Prevent Neovim from auto-adjusting window position when it doesn't fit
